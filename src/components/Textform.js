@@ -77,7 +77,7 @@ export default function Textform(props) {
     <>
       <div className='container mt-3  mb-3  text-center'
       
-      style={{backgroundColor:props.mode === 'dark'?'black':'white'}}>
+      style={{backgroundColor:props.mode === 'dark'?'#073454':'white'}}>
         <div>
           <h1 className="leads"  
           
