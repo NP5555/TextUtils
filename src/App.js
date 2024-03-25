@@ -5,15 +5,7 @@ import './components/App.css';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import React,{useState} from 'react'
-import About from './components/About';
-// import Practice1 from './components/Practice1';
 
-import { 
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} 
-from "react-router-dom";
 
 
 
@@ -57,22 +49,18 @@ const toggleMode= () => {
     
     <>
  
- <Router>
+ 
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
       <div className='container my-3'>
-        <Routes>
-          {/* Route for the About component */}
-          <Route path="/about" element={<About/>}/>
-        
-          {/* Route for the Textform component */}
-          <Route path="/" element={<Textform heading="Enter Text" showAlert={showAlert} />}/>
+       
+      
 
-         
-        </Routes>
+
+         <Textform heading="Maniplate your Text" showAlert={showAlert} />
       
       </div>
-    </Router>
+    
     </>
   )
 }

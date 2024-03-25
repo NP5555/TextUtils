@@ -103,7 +103,7 @@ export default function Textform(props) {
           <textarea className="form-control" value={Text} onChange={handleOnChange} 
 
 
-          style={{backgroundColor:props.mode === 'dark'?'#6c757d':'gray', color:props.mode === 'dark'?'white':'white'}} 
+          style={{backgroundColor:props.mode === 'dark'?'#6c757d':'gray', color:props.mode === 'dark'?'#6c757d':'white'}} 
           
           
           id="Textform" rows="10" >
@@ -140,7 +140,7 @@ export default function Textform(props) {
 
 
       </div>
-      <div  style={{backgroundColor:props.mode === 'dark'?'#073454':'white', color:props.mode === 'dark'?'#073454':'#073454'}} 
+      <div  style={{backgroundColor:props.mode === 'dark'?'#073454':'white', color:props.mode === 'dark'?'white':'dark'}} 
            >
 
 

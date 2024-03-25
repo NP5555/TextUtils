@@ -9,7 +9,7 @@ export default function About() {
     })
 
    const ToggleStyle=()=>{
-if(myStyle.color=='white'){
+if(myStyle.color==='white'){
 
     setMyStyle({
         color: 'black',
